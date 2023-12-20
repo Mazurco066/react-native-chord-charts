@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
       <ChordChart
-        chordKey='A4'
+        chordKey="A4"
         color="#F84D28"
         showTuning
       />
