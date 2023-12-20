@@ -1,1 +1,1 @@
-export * from './getChordPositions'
+export * from './getChordPositions';
