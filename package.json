@@ -1,6 +1,6 @@
 {
   "name": "react-native-chord-charts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A guitar chord charts renderer for react native projects.",
   "main": "lib/index.js",
   "scripts": {
@@ -15,9 +15,9 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "react": "18.2.0",
-    "react-native": "0.71.7",
-    "react-native-svg": "13.2.0"
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
   },
   "keywords": [
     "react-native-chord-charts",
