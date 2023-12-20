@@ -6,9 +6,13 @@ This package allows rendering guitar chord charts as SVG into your react native 
 
 ## Screenshots
 
-todo
+* Example **G** chord chart:
+
+![chordchart](./screenshots/screenshot-chord.png)  
 
 ## Getting started
+
+If you wish you can use the example available here. It's an expo app.
 
 ### 1. Instalation
 
@@ -46,6 +50,15 @@ export default MyComponent;
 ```
 
 ### 3. Component available properties
+
+| Property   | Default Value                  | Description                         | Is Required? |
+|------------|--------------------------------|-------------------------------------|--------------|
+| width      | 100                            | Chart width                         | no           |
+| height     | 120                            | Chart height                        | no           |
+| showTuning | false                          | Display the chord keys on svg chart | no           |
+| tuning     | ['E', 'A', 'D', 'G', 'B', 'E'] | Intrument tuning (Guitar)           | no           |
+| chordKey   |                                | Guitar chord key example: G#m       | yes          |
+| color      | #8257E5                        | Chord chart svg render color        | no           |
 
 ## Author
 

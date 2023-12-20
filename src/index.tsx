@@ -8,7 +8,7 @@ type IChordChart = {
   height?: number,
   showTuning?: boolean,
   tuning?: string[],
-  key: string,
+  chordKey: string,
   color?: string
 }
 
@@ -17,10 +17,10 @@ const ChordChart = ({
   height = 120,
   showTuning = false,
   tuning = ['E', 'A', 'D', 'G', 'B', 'E'],
-  key,
+  chordKey,
   color = '#8257E5'
 }: IChordChart) => {
-  const chord: string[] = getChordPositions(key)
+  const chord: string[] = getChordPositions(chordKey)
 
   let fretPosition = 0
   let lower = 100
